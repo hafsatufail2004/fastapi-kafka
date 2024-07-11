@@ -15,9 +15,9 @@ services:
      restart: always
      container_name: PostgresCont
      environment: 
-      POSTGRES_URL: "postgresql://tufailhafsa12"
-      POSTGRES_PASSWORD: "ma2F4wqJWIbD"
-      POSTGRES_DB: "prisma_migrate_shadow_db_7db68388-6839-4ca0-ae8f-a60ac4c12bce"
+      POSTGRES_URL: "postgresql://hafsa"
+      POSTGRES_PASSWORD: "hasa"
+      POSTGRES_DB: "posgresql"
      port:
       - 5433:5432
      volumes:
